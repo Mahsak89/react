@@ -6,7 +6,7 @@ class NestingComponents extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            isLoaded: true,
+            isLoaded: false,
             isLoggedIn: true,
         }
     }
