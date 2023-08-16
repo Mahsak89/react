@@ -4,13 +4,16 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import EventsClass from "./components/EventsClass";
 import EventsFunctional from "./components/EventsFunctional";
-import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+import NestingComponents from "./components/NestingComponents";
+
+//import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRenderingClass />
+      <NestingComponents />
+      
       <ConditionalRenderingFunctional connected={true} />
       <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting = "Nice to meet you!" name = "Sara" age = "25" />
